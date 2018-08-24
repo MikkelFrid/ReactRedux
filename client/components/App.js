@@ -1,10 +1,14 @@
 import React from 'react';
-import Welcome from './welcome';
+import Welcome from './welcome.jsx';
+import NavigationBar from './navigationBar.jsx'
 
 class App extends React.Component {
     render(){
         return (
-            <Welcome />
+            <div className="container">
+                <NavigationBar />
+                {this.props.children}
+            </div>
         );
     }
 }
