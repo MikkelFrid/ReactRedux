@@ -20,7 +20,6 @@ const SelectFieldGroup = ({field, value, label, onChange, type, error, defualtTe
     );
 }
 
-
 SelectFieldGroup.propTypes = {
     field: PropTypes.string.isRequired,
     value: PropTypes.string.isRequired,
@@ -31,6 +30,5 @@ SelectFieldGroup.propTypes = {
     errors: PropTypes.string,
     data: PropTypes.array.isRequired
 }
-
 
 export default SelectFieldGroup;

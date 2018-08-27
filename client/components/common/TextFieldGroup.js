@@ -27,5 +27,4 @@ TextFieldGroup.propTypes = {
     errors: PropTypes.string
 }
 
-
 export default TextFieldGroup;
